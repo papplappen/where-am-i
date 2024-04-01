@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "where-am-i"
+version = "0.1.0"
+description = ""
+authors = ["Garbaz <garbaz@t-online.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+pandas = "^2.2.1"
+pymc = "^5.12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

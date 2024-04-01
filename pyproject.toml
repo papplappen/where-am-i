@@ -12,10 +12,13 @@ seaborn = "^0.13.2"
 pandas = "^2.2.1"
 pymc = "^5.12.0"
 scipy = "^1.12.0"
+numpyro = { extras = ["cpu"], version = "^0.14.0" }
 
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.4"
+ipywidgets = "^8.1.2"
+
 
 [build-system]
 requires = ["poetry-core"]
